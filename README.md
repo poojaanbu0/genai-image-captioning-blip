@@ -1,12 +1,12 @@
 ## Prototype Development for Image Captioning Using the BLIP Model and Gradio Framework
 
-### AIM:
+## AIM:
 To design and deploy a prototype application for image captioning by utilizing the BLIP image-captioning model and integrating it with the Gradio UI framework for user interaction and evaluation.
 
-### PROBLEM STATEMENT:
+## PROBLEM STATEMENT:
 Automated image captioning involves generating descriptive text for visual content, an essential capability for applications in accessibility, multimedia retrieval, and automated content creation. The challenge is to produce accurate and meaningful captions using pre-trained models while ensuring ease of use for end users. This project leverages the BLIP model to address these challenges, with a Gradio-powered interface for user interaction and evaluation.
 
-### DESIGN STEPS:
+## DESIGN STEPS:
 ### Step 1: Set Up the Environment
 - Install Required Libraries
 - Ensure that the GPU runtime is enabled in Colab for faster processing.
@@ -26,7 +26,7 @@ Automated image captioning involves generating descriptive text for visual conte
   
 - Execute the code and launch the Gradio app.
 
-### PROGRAM:
+## PROGRAM:
 ```python
 !pip install torch torchvision transformers gradio
 
@@ -65,8 +65,8 @@ if __name__ == "__main__":
 
 ```
 
-### OUTPUT:
+## OUTPUT:
 ![image](https://github.com/user-attachments/assets/e4e822a0-dbfb-4ab9-897c-75c89ca38171)
 
-### RESULT:
+## RESULT:
 Successfully developed a prototype application for image captioning by utilizing the BLIP image-captioning model and integrating it with the Gradio UI framework for user interaction and evaluation.
